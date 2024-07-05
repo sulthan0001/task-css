@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>css</title>
+    <style>
+      table,
+      td,
+      th,
+      tr {
+        border: 2px solid rgba(0, 0, 0, 0.904);
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+
+      #black { color: white;
+background: black;
+      }
+
+      #yellow {
+        color: black;
+        background-color: aqua;
+      }
+
+      #red {
+        color: black;
+        background-color: red;
+      }
+
+      #green {
+        color: black;
+        background-color: green;
+      }
+
+      .green {
+        color: black;
+        background-color: green;
+      }
+
+      .black {
+        color: white;
+        background-color: black;
+      }
+
+      .yellow {
+        color: black;
+        background-color: aqua;
+      }
+
+      .red {
+        color: black;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <table height="200" width="700" >
+      
+      <tr>
+        <td colspan="2" style="color: black; background-color: aqua;"> yellow</td>
+        <!-- <td>blue</td> -->
+        <td style="color: black; background-color: red;">red</td>
+        <td style="color: black; background-color: green;">green</td>
+        <td style="color: white; background-color: black;">black</td>
+       
+      </tr>
+      <tr>
+        <td id="black">black</td>
+        <td colspan="2" id="yellow">yellow</td>
+        <!-- <td>blue</td> -->
+        <td id="red">red</td>
+        <td id="green">green</td>
+       
+      </tr>
+      <tr>
+        <td class="green">green</td>
+        <td class="black">black</td>
+        <td colspan="2" class="yellow">yellow</td>
+        <!-- <td>blue</td> -->
+        <td class="red">red</td>
+       
+      </tr>
+      <tr>
+        <td style="color: black; background-color: red;">red</td>
+        <td style="color: black; background-color: green;">green</td>
+        <td style="color: white; background-color: black;">black</td>
+        <td colspan="2" style="color: black; background-color: aqua;">yellow</td>
+        <!-- <td>blue</td> -->
+      </tr>
+    </table>
+
+    <img src="./images/images.jpeg" alt="">
+  </body>
+</html>
